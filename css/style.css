@@ -1,0 +1,36 @@
+#dialog-window {
+
+  height: 400px;
+ 
+
+  border: 1px ;
+  width: 350px;
+  bottom:20px;
+  
+  right: 0;
+  position: fixed;
+  display: none;
+}
+
+#scrollable-content {
+  height: 350px;
+  width:350px;
+  overflow: auto;
+  background-color: gray;
+  overflow-y: scroll;
+}
+
+#footer {
+  height: 50px;
+  width:350px;
+  background-color: white;
+}
+#input_space{
+	height:40px;
+	width:345px;
+}
+.button{
+  bottom:0;
+  right:0;
+  position: fixed;
+}
